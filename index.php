@@ -2,15 +2,23 @@
 <html class="no-js" lang="en">
 
 <head>
+    <!-- Google tag - Google Analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EB3MKZ4Q3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EB3MKZ4Q3F');
+</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Estudio WebCam Colombia">
-    <meta name="keywords" content="Crystal Palace, webcam, modelo webcam, estudio webcam ">
+    <meta name="keywords" content="Crystal Palace, webcam, modelo webcam, estudio webcam, webcam online">
      <title>Crystal Palace</title>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Icon Font CSS -->
@@ -22,27 +30,22 @@
     <link rel="stylesheet" href="style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
     <!-- REVOLUTION LAYERS STYLES -->
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <!-- REVOLUTION NAVIGATION STYLES -->
     <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
-
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-
 </head>
 
 <body>
-
     <!-- Loading Bar Start -->
     <div id="loading-wrap">
         <div class="object"></div>
     </div>
     <!-- Loading Bar End -->
-
     <!-- Header Section Start -->
     <div id="sticky-active" class="header-section section">
         <div class="container">
@@ -63,7 +66,7 @@
                                 <li><a href="#about">Acerca de</a></li>
                                 <li><a href="#service">Beneficios</a></li>
                                 <!-- <li><a href="#work">Catalogo</a></li> -->
-                                <li><a href="#contact">contacto</a></li>
+                                <li><a href="#contact">Contacto</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -71,8 +74,7 @@
             </div>
         </div>
     </div>
-    <!-- Header Section End -->
-	
+    <!-- Header Section End -->	
     <!-- Slider Section Start -->
     <div id="home" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery">
         <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
@@ -104,8 +106,7 @@
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
 						estamos
-                    </div>
-					
+                    </div>					
                     <!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme" id="slide1-layer-2"
 						data-x="['center','center','center','center']"
@@ -156,8 +157,7 @@
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
 						Necesitas
-                    </div>
-					
+                    </div>					
                     <!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme" id="slide2-layer-2"
 						data-x="['center','center','center','center']"
@@ -180,8 +180,7 @@
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
 						Ingresos Extras<span class="theme-color">.</span>
-                    </div>
-					
+                    </div>					
                     <!-- LAYER NR. 3 -->
 					<a target="_blank" href="https://wa.link/iw2rxu" target="_self" class="tp-caption tp-resizeme tp-btn" id="slide2-layer-3"
 						data-x="['center','center','center','center']"
@@ -209,8 +208,7 @@
             <div class="tp-bannertimer"></div>
         </div>
 		<!-- REVOLUTION SLIDER END -->
-    </div>
-    
+    </div>    
     <!-- About Section Start -->
     <div id="about" class="about-section bg-dark section pt-100 pb-70 rt-animate">
         <div class="container">
@@ -221,8 +219,7 @@
                             <div class="about-image"><img src="img/about/1.jpg" alt="about"></div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="about-image"><img src="img/about/2.jpg" alt="about"></div>
-                            
+                            <div class="about-image"><img src="img/about/2.jpg" alt="about"></div>                            
                         </div>
                     </div>
                 </div>
@@ -237,7 +234,6 @@
         </div>
     </div>
     <!-- About Section End -->
-
     <!-- Beneficios Section Start -->
     <div id="service" class="service-section section pt-120 pb-80 rt-animate">
         <div class="container">
@@ -286,7 +282,6 @@
         </div>
     </div>
     <!-- Service Section End -->
-
     <!-- Testimonial Section Start -->
     <div id="testimonial" class="testimonial-section bg-dark overlay section pt-140 pb-125 bg-img-1 parallax rt-animate">
         <div class="container">
@@ -461,7 +456,6 @@
         </div>
     </div>
     <!-- Contact Section End -->
-
     <!-- Footer Section Start -->
     <footer class="bg-dark-2 section rt-line-arrow rt-animate">
         <div class="container">
@@ -515,7 +509,6 @@
         </div>
     </footer>
     <!-- Footer Section End -->
-
     <!-- All JS Here -->
     <!-- jQuery JS -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -532,11 +525,9 @@
     <script src="js/reverse-animation-active.js"></script>
     <!-- Scripts JS -->
     <script src="js/scripts.js"></script>
-
     <!-- REVOLUTION JS FILES -->
     <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
     <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
@@ -547,11 +538,7 @@
     <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-
     <script src="js/rev-active.js"></script>
-
 </body>
-
-
 <!-- Mirrored from regaltheme.com/tf/onepage/proxa/proxa/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Jun 2023 16:50:32 GMT -->
 </html>
