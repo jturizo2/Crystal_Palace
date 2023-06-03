@@ -183,7 +183,7 @@
                     </div>
 					
                     <!-- LAYER NR. 3 -->
-					<a target="_blank" href="https://wa.link/iw2rxu" target="_self" class="tp-caption tp-resizeme tp-btn" id="slide2-layer-3"
+					<a href="https://wa.link/iw2rxu" target="_blank" class="tp-caption tp-resizeme tp-btn" id="slide2-layer-3"
 						data-x="['center','center','center','center']"
 						data-hoffset="['0','0','0','0']"
 						data-y="['middle','middle','middle','middle']"
@@ -436,19 +436,18 @@
                         <p class="pt-30">Dejanos un mensaje para ponernos en contacto contigo.</p>
                     </div>
                     <div class="contact-box">
-                        <form class="custom-input" id="contact_form" action="" method="POST">
+                        <form class="custom-input" action="PHPMailer/index.php" method="POST">
                             <div class="row">
                                 <div class="col-12 col-md-6">
-                                    <input type="text" name="name" id="contact_name" placeholder="Nombre" required />
+                                    <input type="text"  name="email" placeholder="Correo" required/>
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    <input type="email" id="contact_email" name="email" placeholder="Correo" required/>
+                                    <input type="text" name="subject" id="subject" placeholder="Asunto" required />
                                 </div>
                             </div>
-                            <textarea name="message" id="contact_message" rows="3" placeholder="Mensaje"></textarea>
-							<button class="btn mt-15" type="submit" name="submit" id="contact_submit" data-complete-text="Well done!">
-								Enviar
-							</button>
+                            <textarea name="message" id="message" placeholder="Mensaje"></textarea>
+						
+                            <input style="color:white" class="btn mt-15" type="submit" name="value">
                         </form>
                     </div>
                 </div>
