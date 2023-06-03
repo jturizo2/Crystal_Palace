@@ -5,10 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Proxa - One Page Parallax Business Template">
-    <meta name="keywords" content="agency, Business, Corporate, Company, Clean, Modern, Onepage, HTML Teamplate">
-    <meta name="author" content="regaltheme.com">
-    <title>Crystal Palace</title>
+    <meta name="description" content="Estudio WebCam Colombia">
+    <meta name="keywords" content="Crystal Palace, webcam, modelo webcam, estudio webcam ">
+     <title>Crystal Palace</title>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 
@@ -63,7 +62,7 @@
                                 <li class="active"><a href="#home">Inicio</a></li>
                                 <li><a href="#about">Acerca de</a></li>
                                 <li><a href="#service">Beneficios</a></li>
-                                <li><a href="#work">Catalogo</a></li>
+                                <!-- <li><a href="#work">Catalogo</a></li> -->
                                 <li><a href="#contact">contacto</a></li>
                             </ul>
                         </nav>
@@ -184,7 +183,7 @@
                     </div>
 					
                     <!-- LAYER NR. 3 -->
-					<a targuet="_blank" href="https://wa.link/iw2rxu" target="_self" class="tp-caption tp-resizeme tp-btn" id="slide2-layer-3"
+					<a target="_blank" href="https://wa.link/iw2rxu" target="_self" class="tp-caption tp-resizeme tp-btn" id="slide2-layer-3"
 						data-x="['center','center','center','center']"
 						data-hoffset="['0','0','0','0']"
 						data-y="['middle','middle','middle','middle']"
@@ -311,7 +310,7 @@
     </div>
     <!-- Testimonial Section End -->
 
-    <!-- Portfolio Section Start -->
+    <!-- Portfolio Section Start
     <div id="work" class="portfolio-section section bg-light pt-120 pb-120 rt-animate">
         <div class="container">
             <div class="row rt-animate">
@@ -346,7 +345,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
+                        
                         <div class="grid-item w-25 design graphic branding web">
                             <a class="thumb overlay overlay-1 popup-gallery" href="img/portfolio/large/2.jpg" title="Mobile Gaming">
                                 <img src="img/portfolio/2.jpg" alt="Portfolio Image" />
@@ -356,7 +355,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
+                        
                         <div class="grid-item w-25 design print branding web">
                             <a class="thumb overlay overlay-1 popup-gallery" href="img/portfolio/large/3.jpg" title="The Joy of Art">
                                 <img src="img/portfolio/3.jpg" alt="Portfolio Image" />
@@ -366,7 +365,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
+                        
                         <div class="grid-item w-25 graphic print branding">
                             <a class="thumb overlay overlay-1 popup-gallery" href="img/portfolio/large/4.jpg" title="Trending Website">
                                 <img src="img/portfolio/4.jpg" alt="Portfolio Image" />
@@ -376,8 +375,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
-                        <!-- /.Single Item -->
+                       
                         <div class="grid-item w-25 design print branding web">
                             <a class="thumb overlay overlay-1 popup-gallery" href="img/portfolio/large/5.jpg" title="Illustration">
                                 <img src="img/portfolio/5.jpg" alt="Portfolio Image" />
@@ -387,7 +385,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
+                        
                         <div class="grid-item w-25 design graphic print branding web">
                             <a class="thumb overlay overlay-1 popup-gallery" href="img/portfolio/large/6.jpg" title="New Trends">
                                 <img src="img/portfolio/6.jpg" alt="Portfolio Image" />
@@ -397,8 +395,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
-                        <!-- /.Single Item -->
+                       
                         <div class="grid-item w-25 print branding web">
                             <a class="thumb overlay overlay-1 popup-gallery" href="img/portfolio/large/7.jpg" title="Web Technology">
                                 <img src="img/portfolio/7.jpg" alt="Portfolio Image" />
@@ -408,7 +405,7 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
+                        
                         <div class="grid-item w-25 design graphic print branding">
                             <a class="thumb overlay overlay-1 popup-gallery" href="img/portfolio/large/8.jpg" title="Product Markting">
                                 <img src="img/portfolio/8.jpg" alt="Portfolio Image" />
@@ -418,12 +415,13 @@
                                 </div>
                             </a>
                         </div>
-                        <!-- /.Single Item -->
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    -->
     <!-- Contact Section Start -->
     <div id="contact" class="contact-section section bg-light pt-120 pb-120 rt-animate">
         <div class="container">
