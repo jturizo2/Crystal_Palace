@@ -63,7 +63,7 @@
                                 <li><a href="#about">Acerca de</a></li>
                                 <li><a href="#service">Beneficios</a></li>
                                 <!-- <li><a href="#work">Catalogo</a></li> -->
-                                <li><a href="#contact">contacto</a></li>
+                                <li><a href="#contact">Contacto</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -89,7 +89,7 @@
 						data-y="['middle','middle','middle','middle']"
 						data-voffset="['-124','-105','-90','-50','-40']"
 						data-fontsize="['50','70','60','40','30']"
-                        data-color="black"
+                        data-color="white"
 						data-lineheight="['80','70','60','40','30']"
 						data-width="none"
 						data-height="none"
@@ -103,7 +103,7 @@
 						data-paddingleft="[0,0,0,0]"
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
-						estamos
+						Estamos
                     </div>
 					
                     <!-- LAYER NR. 2 -->
@@ -113,7 +113,7 @@
 						data-y="['middle','middle','middle','middle']"
 						data-voffset="['0','0','0','0','0']"
 						data-fontsize="['60','120','100','60','40']"
-                        data-color="black"
+                        data-color="white"
 						data-lineheight="['150','120','100','60','40']"
                         data-width="none"
 						data-height="none"
@@ -127,7 +127,7 @@
 						data-paddingleft="[0,0,0,0]"
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
-						contratando<span class="theme-color">.</span>
+						Contratando<span class="theme-color">.</span>
                     </div>
 				</li>
                 <!-- SLIDE  -->
@@ -141,7 +141,7 @@
 						data-y="['middle','middle','middle','middle']"
 						data-voffset="['-124','-105','-90','-50','-40']"
 						data-fontsize="['50','70','60','40','30']"
-                        data-color="black"
+                        data-color="white"
 						data-lineheight="['80','70','60','40','30']"
 						data-width="none"
 						data-height="none"
@@ -165,7 +165,7 @@
 						data-y="['middle','middle','middle','middle']"
 						data-voffset="['0','0','0','0','0']"
 						data-fontsize="['60','120','100','60','40']"
-                        data-color="black"
+                        data-color="white"
 						data-lineheight="['150','120','100','60','40']"
 						data-width="none"
 						data-height="none"
@@ -468,7 +468,7 @@
                 <div class="col-md-4 col-12 mobi-mb-50">
                     <div class="widget">
                         <i class="et et-map"></i>
-                        <h6 class="text-uppercase">Ubicación</h6>
+                        <h6 class="text-uppercase"></h6>
                         <p>Bogotá D.C. - Cundinamarca.</p>
                         <hr class="line" />
                     </div>
@@ -476,9 +476,9 @@
                 <div class="col-md-4 col-12 mobi-mb-50">
                     <div class="widget">
                         <i class="et et-phone"></i>
-                        <h6 class="text-uppercase">Telefonos</h6>
+                        <h6 class="text-uppercase"></h6>
                         <p>
-                            <a target="_blank" href="https://wa.link/iw2rxu">+57 305 905 2487 </a>
+                            <a target="_blank" href="https://wa.link/iw2rxu">WhatssApp </a>
                         </p>
                         <hr class="line" />
                     </div>
@@ -486,11 +486,11 @@
                 <div class="col-md-4 col-12">
                     <div class="widget">
                         <i class="et et-envelope"></i>
-                        <h6 class="text-uppercase">E-Mail</h6>
+                        <h6 class="text-uppercase"></h6>
                         <p>
-                            <a href="mailto:crystalpalacesoporte@gmail.com">crystalpalacesoporte@gmail.com</a>
+                            <a href="mailto:crystalpalacesoporte@gmail.com">E-mail 1</a>
                             <br>
-                            <a href="mailto:tecnologiacrystal@gmail.com">tecnologiacrystal@gmail.com</a>
+                            <a href="mailto:tecnologiacrystal@gmail.com">E-mail 2</a>
                         </p>
                         <hr class="line" />
                     </div>
@@ -507,7 +507,7 @@
                             </ul>
                         </div>
                         <!-- Change your social media link -->
-                        <p>&copy; Todos los derechos <a href="#">Reservados</a></p>
+                        <p>&copy; Todos los derechos Reservados</p>
                     </div>
                 </div>
             </div>
