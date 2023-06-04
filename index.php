@@ -201,7 +201,7 @@
 						data-paddingleft="[40,38,35,30,20]"
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 17;">
-						Contactanos
+                        Contactanos					
 					</a>
                 </li>
             </ul>
@@ -463,7 +463,7 @@
                 <div class="col-md-4 col-12 mobi-mb-50">
                     <div class="widget">
                         <i class="et et-map"></i>
-                        <!--h6 class="text-uppercase">Ubicación</h6-->
+                        <h6 class="text-uppercase"></h6>
                         <p>Bogotá D.C. - Cundinamarca.</p>
                         <hr class="line" />
                     </div>
@@ -471,17 +471,17 @@
                 <div class="col-md-4 col-12 mobi-mb-50">
                     <div class="widget">
                         <i class="et et-phone"></i>
-                        <!--h6 class="text-uppercase">Telefonos</h6-->
-                        <p>
-                            <a target="_blank" href="https://wa.link/iw2rxu"> WhatssApp </a>
-                        </p>
+                        <h6 class="text-uppercase"></h6>                        
+                        <p>                            
+                           <a target="_blank" href="https://wa.link/iw2rxu">WhatsApp</a>
+                        </p> 
                         <hr class="line" />
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
                     <div class="widget">
                         <i class="et et-envelope"></i>
-                        <!--h6 class="text-uppercase">E-Mail</h6-->
+                        <h6 class="text-uppercase"></h6>
                         <p>
                             <a href="mailto:crystalpalacesoporte@gmail.com">E-mail 1</a>
                             <br>
