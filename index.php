@@ -218,10 +218,10 @@
                 <div class="col-lg-6 col-12 mb-30">
                     <div class="row">
                         <div class="col-md-6 col-12 mobi-mb-30">
-                            <div class="about-image"><img src="img/about/1.jpg" alt="about"></div>
+                            <div class="about-image"><img src="img/about/1.png" alt="about"></div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="about-image"><img src="img/about/2.jpg" alt="about"></div>
+                            <div class="about-image"><img src="img/about/2.png" alt="about"></div>
                             
                         </div>
                     </div>
