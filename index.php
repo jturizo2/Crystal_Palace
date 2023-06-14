@@ -228,9 +228,9 @@
                 </div>
                 <div class="col-lg-6 col-12 mb-30">
                     <div class="about-content">
-                        <h5 class="title-tag">SOMOS</h5>
+                        <h3 class="title-tag">Misión</h3>
                         <h1>Crystal Palace</h1>
-                        <p>Es un lugar cómodo y seguro donde puedes  alcanzar la independencia económica gracias al modelaje por webcam.</p>
+                        <p>Enfocados en promover un grato ambiente de trabajo, preocupándonos del bienestar de nuestras modelos, ofreciendo instalaciones cómodas, seguras y privadas, donde sea fácil y divertido ganar dinero sin preocuparse de nada.</p>
                     </div>
                 </div>
             </div>
