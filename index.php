@@ -10,7 +10,6 @@
      <title>Crystal Palace</title>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Icon Font CSS -->
@@ -18,31 +17,28 @@
     <link rel="stylesheet" href="css/et-line.css">
     <!-- All Plugins CSS -->
     <link rel="stylesheet" href="css/plugins.css">
+    <!-- Style Elements Button Social Net-->
+    <link rel="stylesheet" href="css/StyleElements.css">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
-
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
     <!-- REVOLUTION LAYERS STYLES -->
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <!-- REVOLUTION NAVIGATION STYLES -->
     <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
-
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-
 </head>
 
 <body>
-
     <!-- Loading Bar Start -->
     <div id="loading-wrap">
         <div class="object"></div>
     </div>
     <!-- Loading Bar End -->
-
     <!-- Header Section Start -->
     <div id="sticky-active" class="header-section section">
         <div class="container">
@@ -71,8 +67,28 @@
             </div>
         </div>
     </div>
-    <!-- Header Section End -->
-	
+    <!--Slide de Iconos Vertical de Redes Sociales-->
+    <ul id="hiddenElement" class="hidden redes-sociales">
+      <li><a href="https://www.facebook.com/profile.php?id=100092490519954&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://wa.link/iw2rxu" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+      <li><a href="https://instagram.com/crystalpalacestudio?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      <!-- Agrega más íconos de redes sociales aquí -->
+    </ul>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", showElementOnScroll);
+
+        function showElementOnScroll() 
+        {
+            const hiddenElement = document.getElementById("hiddenElement");
+            const scrollPosition = window.innerHeight + window.pageYOffset;
+            if (scrollPosition > hiddenElement.offsetTop) 
+            {
+                hiddenElement.classList.add("visible");
+            }
+        }    
+    </script>
+    <!-- Header Section End -->	
     <!-- Slider Section Start -->
     <div id="home" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery">
         <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
@@ -104,8 +120,7 @@
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
 						Estamos
-                    </div>
-					
+                    </div>					
                     <!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme" id="slide1-layer-2"
 						data-x="['center','center','center','center']"
@@ -156,8 +171,7 @@
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
 						Necesitas
-                    </div>
-					
+                    </div>					
                     <!-- LAYER NR. 2 -->
 					<div class="tp-caption tp-resizeme" id="slide2-layer-2"
 						data-x="['center','center','center','center']"
@@ -180,10 +194,9 @@
 						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 						style="z-index: 16;">
 						Ingresos Extras<span class="theme-color">.</span>
-                    </div>
-					
+                    </div>					
                     <!-- LAYER NR. 3 -->
-					<a href="https://wa.link/iw2rxu" target="_blank" class="tp-caption tp-resizeme tp-btn" id="slide2-layer-3"
+					<a href="#netcontact" class="tp-caption tp-resizeme tp-btn" id="slide2-layer-3"
 						data-x="['center','center','center','center']"
 						data-hoffset="['0','0','0','0']"
 						data-y="['middle','middle','middle','middle']"
@@ -209,8 +222,7 @@
             <div class="tp-bannertimer"></div>
         </div>
 		<!-- REVOLUTION SLIDER END -->
-    </div>
-    
+    </div>    
     <!-- About Section Start -->
     <div id="about" class="about-section bg-dark section pt-100 pb-70 rt-animate">
         <div class="container">
@@ -221,14 +233,13 @@
                             <div class="about-image"><img src="img/about/1.png" alt="about"></div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="about-image"><img src="img/about/2.png" alt="about"></div>
-                            
+                            <div class="about-image"><img src="img/about/2.png" alt="about"></div>                            
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 mb-30">
                     <div class="about-content">
-                        <h3 class="title-tag">Misión</h3>
+                        <h1 class="title-tag">Misión</h1>
                         <h1>Crystal Palace</h1>
                         <p>Enfocados en promover un grato ambiente de trabajo, preocupándonos del bienestar de nuestras modelos, ofreciendo instalaciones cómodas, seguras y privadas, donde sea fácil y divertido ganar dinero sin preocuparse de nada.</p>
                     </div>
@@ -237,7 +248,6 @@
         </div>
     </div>
     <!-- About Section End -->
-
     <!-- Beneficios Section Start -->
     <div id="service" class="service-section section pt-120 pb-80 rt-animate">
         <div class="container">
@@ -286,7 +296,6 @@
         </div>
     </div>
     <!-- Service Section End -->
-
     <!-- Testimonial Section Start -->
     <div id="testimonial" class="testimonial-section bg-dark overlay section pt-140 pb-125 bg-img-1 parallax rt-animate">
         <div class="container">
@@ -309,7 +318,6 @@
         </div>
     </div>
     <!-- Testimonial Section End -->
-
     <!-- Portfolio Section Start
     <div id="work" class="portfolio-section section bg-light pt-120 pb-120 rt-animate">
         <div class="container">
@@ -460,61 +468,61 @@
         </div>
     </div>
     <!-- Contact Section End -->
-
     <!-- Footer Section Start -->
-    <footer class="bg-dark-2 section rt-line-arrow rt-animate">
-        <div class="container">
-            <div class="row pt-100 pb-50 text-center rt-animate">
-                <div class="col-md-4 col-12 mobi-mb-50">
-                    <div class="widget">
-                        <i class="et et-map"></i>
-                        <h6 class="text-uppercase"></h6>
-                        <p>Bogotá D.C. - Cundinamarca.</p>
-                        <hr class="line" />
-                    </div>
-                </div>
-                <div class="col-md-4 col-12 mobi-mb-50">
-                    <div class="widget">
-                        <i class="et et-phone"></i>
-                        <h6 class="text-uppercase"></h6>
-                        <p>
-                            <a target="_blank" href="https://wa.link/iw2rxu">WhatssApp </a>
-                        </p>
-                        <hr class="line" />
-                    </div>
-                </div>
-                <div class="col-md-4 col-12">
-                    <div class="widget">
-                        <i class="et et-envelope"></i>
-                        <h6 class="text-uppercase"></h6>
-                        <p>
-                            <a href="mailto:crystalpalacesoporte@gmail.com">E-mail 1</a>
-                            <br>
-                            <a href="mailto:tecnologiacrystal@gmail.com">E-mail 2</a>
-                        </p>
-                        <hr class="line" />
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-11 col-md-10 col-12 ml-auto mr-auto">
-                    <div class="footer-bottom pt-40 pb-40">
-                        <div class="social-icon mb-1">
-                            <ul class="clearfix d-inblock">
-                                <li><a href="https://www.facebook.com/profile.php?id=100092490519954&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://wa.link/iw2rxu" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-                                <li><a href="https://instagram.com/crystalpalacestudio?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
+    <div id="netcontact" class="bg-dark-2 section rt-line-arrow rt-animate">
+        <footer>
+            <div class="container">
+                <div class="row pt-100 pb-50 text-center rt-animate">
+                    <div class="col-md-4 col-12 mobi-mb-50">
+                        <div class="widget">
+                            <i class="et et-map"></i>
+                            <h6 class="text-uppercase"></h6>
+                            <p>Bogotá D.C. - Cundinamarca.</p>
+                            <hr class="line" />
                         </div>
-                        <!-- Change your social media link -->
-                        <p>&copy; Todos los derechos Reservados</p>
+                    </div>
+                    <div class="col-md-4 col-12 mobi-mb-50">
+                        <div class="widget">
+                            <i class="et et-phone"></i>
+                            <h6 class="text-uppercase"></h6>
+                            <p>
+                                <a target="_blank" href="https://wa.link/iw2rxu">WhatssApp </a>
+                            </p>
+                            <hr class="line" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="widget">
+                            <i class="et et-envelope"></i>
+                            <h6 class="text-uppercase"></h6>
+                            <p>
+                                <a href="mailto:crystalpalacesoporte@gmail.com">E-mail 1</a>
+                                <br>
+                                <a href="mailto:tecnologiacrystal@gmail.com">E-mail 2</a>
+                            </p>
+                            <hr class="line" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-11 col-md-10 col-12 ml-auto mr-auto">
+                        <div class="footer-bottom pt-40 pb-40">
+                            <div class="social-icon mb-1">
+                                <ul class="clearfix d-inblock">
+                                    <li><a href="https://www.facebook.com/profile.php?id=100092490519954&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://wa.link/iw2rxu" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                                    <li><a href="https://instagram.com/crystalpalacestudio?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Change your social media link -->
+                            <p>&copy; Todos los derechos Reservados</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
     <!-- Footer Section End -->
-
     <!-- All JS Here -->
     <!-- jQuery JS -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -531,11 +539,9 @@
     <script src="js/reverse-animation-active.js"></script>
     <!-- Scripts JS -->
     <script src="js/scripts.js"></script>
-
     <!-- REVOLUTION JS FILES -->
     <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
     <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
@@ -546,9 +552,7 @@
     <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-
     <script src="js/rev-active.js"></script>
-
 </body>
 
 

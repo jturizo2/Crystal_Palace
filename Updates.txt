@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="css/StyleElements.css">
+
+
+
+ <ul id="hiddenElement" class="hidden redes-sociales">
+      <li><a href="https://www.facebook.com/profile.php?id=100092490519954&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://wa.link/iw2rxu" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+      <li><a href="https://instagram.com/crystalpalacestudio?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      <!-- Agrega más íconos de redes sociales aquí -->
+ </ul>
+
+
+
+<script type="text/javascript">
+    window.addEventListener("scroll", showElementOnScroll);
+
+    function showElementOnScroll() {
+      const hiddenElement = document.getElementById("hiddenElement");
+      const scrollPosition = window.innerHeight + window.pageYOffset;
+
+      if (scrollPosition > hiddenElement.offsetTop) {
+        hiddenElement.classList.add("visible");
+      }
+    }    
+</script>
+
+
